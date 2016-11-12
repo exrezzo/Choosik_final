@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_48px"
+            android:title="Home"
+
+        />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_48px"
+            android:title="Ricerca evento" />
+        <item
+            android:id="@+id/nav_concert"
+            android:icon="@drawable/dj_48px"
+            android:title="I miei concerti" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/metal_music_48px"
+            android:title="About us" />
+
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/info_48px"
+            android:title="Contattaci" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/human_greeting"
+            />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_insert"
+            android:title="Inserisci Tour"
+            android:icon="@drawable/dj_48px"
+            />
+        <item
+            android:id="@+id/nav_canzoni"
+            android:title="Le mie canzoni"
+            android:icon="@drawable/music_record_48px"
+            />
+    </group>
+
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tappa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:text="Canzoni del concerto"
+        android:textStyle="bold"
+        android:theme="@style/txtSuBianco"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/lista_canzoni_view"
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="2dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="left|center_vertical">
+
+
+    </ListView>
+
+
+</FrameLayout>

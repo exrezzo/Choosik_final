@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/prova"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sms1516.gruppo28.uniba.it.choosik.RegisterActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/solo_scritta"
+        />
+
+
+    <EditText
+        android:id="@+id/txtUsername"
+
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:theme="@style/txtSuNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="42dp"
+        android:hint="@string/usr"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:singleLine="true"
+        android:theme="@style/txtSuNero"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtUsername"
+        android:ems="10"
+        android:hint="@string/psw"
+        android:inputType="textPassword"
+        android:text=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:theme="@style/txtSuNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPassword"
+        android:hint="E m a i l"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtAvviso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrami"
+        android:textColor="@android:color/tab_indicator_text"
+        android:background="@android:color/transparent"
+        android:theme="@style/AppTheme.Button"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/spinnerProvince"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerProvince"
+        android:layout_below="@+id/txtEmail"
+        android:textAlignment="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
